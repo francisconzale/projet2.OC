@@ -1,0 +1,338 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+/*GENERALE*/
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+.flexCentre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexArund{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexBetween{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexColumnCentre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexColumnArund{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flexColumnBetween{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bordureNone{
+  border: none;
+}
+/*  texte */
+.texteGras{
+  font-weight: bold; /* permt de mettre un element en gras */
+}
+
+.colorBlue{
+  color: #0065fc;
+}
+
+.colorBlueClair{
+  color: #deebff;
+}
+
+.colorGris{
+  color: #f2f2f2;
+}
+
+/* color background  */
+.backBlue{
+  background-color: #0065fc;
+}
+
+.backBlueClair{
+  background-color: #deebff;
+}
+
+.backGris{ 
+  background-color: #f2f2f2;
+}
+
+/* Logo */
+.logo{
+  width: 120px;/* Permet de donne une taille au logo */
+  height: 50px;/* permet de lui donne un hauteure*/
+  margin-bottom: 7px;
+  }
+/* navBar */
+
+.navBar{
+  height: 100px;
+}
+
+.liensNav{
+  display: flex;
+ justify-content: space-around;  /* pour espace les elements */
+  align-items: center;
+  width: 25%;/* permet de définir la largeur d'un element */
+}
+
+
+/* permet de ne pas avoir des element qui sortent de la barre de navigation*/
+.lienNav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 99px;
+} 
+ 
+.lienNav1{
+  color: blue;
+text-decoration: none;
+ }
+.lienNav2{
+  color: black;
+  text-decoration: none;/* Permet d'annule la decoraction de base. */ 
+}
+
+/* Bordure */
+
+.bordureNav01{
+  border-top: 1px solid blue; /* permet de mettre une bordure en haut de l'element */
+}
+.bordureNav02{
+border: 1px solid transparent;
+}
+
+/* Header */
+
+.bordureSearch{
+  width: 400px; /* bordure globale des 3 element */
+  border-radius: 10px; /* la largeure  globale des 3 element */
+  border: 0.5 solid #f2f2f2;
+}
+
+.paddingSearch{
+ padding-left: 10px; /* va permettre d'espace le texte */
+}
+
+.recherche{
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+.iconSize{
+  height: 50px;
+  width: 50px;
+  border-radius: 10px 0 0 10px;
+}
+  
+.buttonSearch{
+  height: 50px;
+  width: 120px;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+}
+   
+/* filtres */
+.margFiltre{
+  margin-top: 50px; 
+  margin-bottom: 40px;
+}
+
+.filtre{
+  display: flex;
+  align-items: center;
+}
+
+.margFiltreTitre{
+  margin: 20px;
+}
+
+.filtreTexteIcons{
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.filtreTexteIcons:hover .filterTexte{
+  color: #0065fc;
+}
+
+.filtreTexteIcons:hover .filtreIcons{
+  color: white;
+  background-color: #0065fc;
+}
+
+.filterTexte{
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 25px 25px 0;
+}
+
+.filtreIcons{
+  margin-left: -2px;
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: #0065fc;
+  background-color: #deebff;
+}
+
+/* info icone */
+.info{
+  display: flex;
+  align-items: center;
+
+}
+
+.parentIcon{
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+/* Hebergements */
+
+.sizeHeber{
+  flex: 2;
+  height: 650px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.sizePopul{
+  flex: 1;
+  height: 650px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.cubHeberge{
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.blocHebergements{
+  padding: 20px;
+  padding-right: 20px;
+}
+
+ .cubHeberge{ 
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+ }
+
+.bloc1{
+  margin-bottom: 10px;
+}
+
+.bloc2{
+  margin-top: 10px;
+}
+.cubeheberg{
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.cubedetailsheberg{
+  width: 90%;
+}
+
+.imgHeber1{
+  background-image: url(/images/hebergements/4_small/auberge-de-la-cannebiere.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgHeber2{
+  background-image: url(/images/hebergements/4_small/hotel-du-port.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgHeber3{
+  background-image: url(/images/hebergements/4_small/hotel-les-mouettes.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgHeber4{
+  background-image: url(/images/hebergements/4_small/hotel-de-la-mer.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgHeber5{
+  background-image: url(/images/hebergements/4_small/auberge-le-panier.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imgHeber6{
+  background-image: url(/images/hebergements/4_small/hotel-che-amina.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+/* populaires */
+
+.blocpopul{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+
